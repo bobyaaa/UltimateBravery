@@ -1,8 +1,10 @@
 .intro {
 	background-color: #92f442;
 	font-family: "Open Sans";
-	width: 100px;
-	height: 100px;
+	font-size: 26px;
+	text-align: center;
+	width: 400px;
+	height: 30px;
 
 	position: absolute;
     top:0;
@@ -11,5 +13,8 @@
     right: 0;
 
     margin: auto;
-}
+    padding: 20px;
+    border-radius: 12px; 
 
+    cursor: pointer;
+}
