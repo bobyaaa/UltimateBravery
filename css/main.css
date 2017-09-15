@@ -23,7 +23,7 @@ li:hover {
 }
 
 .header {
-	background-color: #3582ff;
+	background-color: #282a2d;
 	height: 70px%;
 	width: 100%;
 	z-index: 4;
@@ -106,7 +106,7 @@ li:hover {
 }
 
 .footer {
-	background-color: #3582ff;
+	background-color: #282a2d;
 	height: 70px;
 	width: 100%;
 	z-index: 4;
