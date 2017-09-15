@@ -74,7 +74,9 @@ li:hover {
 	width: 100%;
 	height: 100%;
 	z-index: 3;
-	background-color: orange;
+	background: linear-gradient(transparent,black 90%),url('../images/background.jpg');
+	background-position:center;
+
 }
 
 .slide2 {
