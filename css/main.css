@@ -23,8 +23,8 @@ li:hover {
 }
 
 .header {
-	background-color: #3582ff;
-	height: 75px;
+	background-color: #153056;
+	height: 7%;
 	width: 100%;
 	z-index: 4;
 	position: absolute;
@@ -73,11 +73,24 @@ li:hover {
 
 	width: 100%;
 	height: 100%;
+<<<<<<< HEAD
 	z-index: 3;
 	background-color: orange;
 }
 
 .slide2 {
+=======
+	z-index: 1;
+	background-color:#0094ff;
+}
+
+.footer {
+	background-color: #153056;
+	height: 7%;
+	width: 100%;
+	z-index: 3;
+
+>>>>>>> ea655b9c46a04092fd9db6823ea6ef54401465ad
 	position: absolute;
 	top: 0;
 	bottom: 0;
