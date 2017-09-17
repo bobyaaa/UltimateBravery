@@ -18,14 +18,44 @@ li {
 	cursor: pointer;
 }
 
+
 li:hover {
 	background-color: #3582ff;
+}
+
+.progress1 {
+	background-color: white;
+	height: 30px;
+	width: 100px;
+	z-index: 5;
+	position: relative;
+	top: -50px;
+	left: 1400px;
+
+}
+
+.progress2 {
+	background-color: white;
+	height: 30px;
+	width: 100px;
+	z-index: 5;
+	position: relative;
+	left: 175px
+}
+
+.progress3 {
+	background-color: white;
+	height: 30px;
+	width: 100px;
+	z-index: 5;
+	position: relative;
+	left: 175px
 }
 
 .header {
 	background-color: #282a2d;
 	height: 70px;
-	width: 100%;
+	width: 1903px;
 	z-index: 4;
 	position: absolute;
 	top: 0;
@@ -71,9 +101,8 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	margin: auto;
-	width: 100%;
-	height: 82%;
+	width: 1903px;
+	height: 1010px;
 	z-index: 3;
 	background: linear-gradient(transparent,black 90%),url('../images/background.jpg');
 	background-position:center;
@@ -88,9 +117,8 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	margin: auto;
-	width: 100%;
-	height: 82%;
+	width: 1903px;
+	height: 1010px;
 	z-index: 2;
 	background-color: pink;
 }
@@ -102,9 +130,8 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	margin: auto;
-	width: 100%;
-	height: 82%;
+	width: 1903px;
+	height: 1010px;
 	z-index: 1;
 	background-color: aqua;
 }
@@ -112,11 +139,11 @@ li:hover {
 .footer {
 	background-color: #282a2d;
 	height: 70px;
-	width: 100%;
-	z-index: 4;
-
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	width: 1903px;
+	z-index: 5;
+	
+	position: relative;
+	bottom: -900px; 
+	left:0px;
+	
 }
