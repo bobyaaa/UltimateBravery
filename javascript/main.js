@@ -30,7 +30,8 @@ $(document).ready(function(){
 
 		$(".intro").hide();
 		$(".slide1").animate({width:'toggle'},350); 
-		$(".progress1").css("background-color",'#004d26');
+		$(".progress1").css("background-color","#2390c6");
+		$(".progress1").css("box-shadow", "0px 0px 15px #2390c6");
 	});
 
 	$(".about").on('click', function() {

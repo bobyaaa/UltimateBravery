@@ -41,17 +41,20 @@ li:hover {
 	left: 56%;
 }
 .progress1 {
-	background-color: #660000;
+	background-color: grey;
 	border-radius: 50%;
 	height: 30px;
 	width: 30px;
 	position: relative;
 	top: -50px;
 	left: 55%;
+	font-family: "Open Sans";
+	text-align:center;
+
 }
 
 .progress2 {
-	background-color: #660000;
+	background-color: grey;
 	border-radius: 50%;
 	height: 30px;
 	width: 30px;
@@ -62,7 +65,7 @@ li:hover {
 }
 
 .progress3 {
-	background-color: #660000;
+	background-color: grey;
 	border-radius: 50%;
 	height: 30px;
 	width: 30px;
