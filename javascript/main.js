@@ -16,6 +16,8 @@ $(document).ready(function(){
 			$(".slide1").animate({height:'toggle'}, 350);
 			$(".slide2").animate({height:'toggle'}, 350);
 		}
+			$(".progress1").css("background-color","grey");
+		$(".progress1").css("box-shadow", "0px 0px 0px #2390c6");
 
 		$bravery = true;
 		$about = false;
@@ -43,6 +45,8 @@ $(document).ready(function(){
 		} else if ($github == true) {
 			$(".slide2").animate({height:'toggle'}, 350);
 		}
+		$(".progress1").css("background-color","grey");
+		$(".progress1").css("box-shadow", "0px 0px 0px #2390c6");
 
 		$about = true;
 		$bravery = false;
@@ -59,6 +63,8 @@ $(document).ready(function(){
 		} else if ($about == true) {
 			$(".slide2").animate({height:'toggle'}, 350);
 		} 
+			$(".progress1").css("background-color","grey");
+		$(".progress1").css("box-shadow", "0px 0px 0px #2390c6");
 
 		$github = true;
 		$bravery = false;
