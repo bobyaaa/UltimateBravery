@@ -30,6 +30,7 @@ $(document).ready(function(){
 
 		$(".intro").hide();
 		$(".slide1").animate({width:'toggle'},350); 
+		$(".progress1").css("background-color",'#004d26');
 	});
 
 	$(".about").on('click', function() {
@@ -37,6 +38,7 @@ $(document).ready(function(){
 		if ($bravery == true) {
 			$(".intro").fadeOut('slow');
 			$(".slide1").animate({height:'toggle'}, 350);
+
 		} else if ($github == true) {
 			$(".slide2").animate({height:'toggle'}, 350);
 		}
