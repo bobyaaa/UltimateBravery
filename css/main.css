@@ -11,7 +11,7 @@ li {
 	display: inline-block;
 	border: 3px solid #003333; 
 	border-radius: 5px;
-	background-color: #00B0B2;
+	background-color: #2390c6;
 	padding: 5px;
 	margin: 3px 8px 0px 3px;
 	font-family: "Open Sans";
@@ -88,7 +88,7 @@ li:hover {
 }
 
 .intro {
-	background-color: #00B0B2;
+	background-color:#2390c6;
 	color: #003333;
 	font-family: "Open Sans";
 	font-size: 200%;
@@ -99,7 +99,7 @@ li:hover {
 	height: 42px;
 
 	position: relative;
-    top: -60%;
+    top: -70%;
     
     left: 0;
     right: 0;
