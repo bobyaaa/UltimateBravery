@@ -18,12 +18,20 @@ li {
 	cursor: pointer;
 }
 
-
 li:hover {
 	background-color: #3582ff;
 }
 
-.progress1 {
+.wrap {
+	height:100%;
+	width: 100%;
+
+	position:absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/*.progress1 {
 	background-color: white;
 	height: 30px;
 	width: 100px;
@@ -51,11 +59,12 @@ li:hover {
 	position: relative;
 	left: 175px
 }
+*/
 
 .header {
 	background-color: #282a2d;
-	height: 70px;
-	width: 1903px;
+	height: 75px;
+	width: 100%;
 	z-index: 4;
 	position: absolute;
 	top: 0;
@@ -67,16 +76,16 @@ li:hover {
 	background-color: #00B0B2;
 	color: #003333;
 	font-family: "Open Sans";
-	font-size: 32px;
-	font-weight: 900;
+	font-size: 200%;
+	font-weight: 1000;
 	text-align: center;
 	letter-spacing: 3px;
 	width: 400px;
 	height: 42px;
 
-	position: absolute;
-    top:0;
-    bottom: 0;
+	position: relative;
+    top: 40%;
+    
     left: 0;
     right: 0;
 
@@ -95,19 +104,17 @@ li:hover {
 }
 
 .slide1 {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 
-	width: 1903px;
-	height: 1010px;
+	width: 100%;
+	height: 100%;
 	z-index: 3;
-	background: linear-gradient(transparent,black 90%),url('../images/background.jpg');
-	background-position:center;
+	background: linear-gradient(transparent,black 90%),url('../images/background.jpg')no-repeat center center fixed;
 	background-size: cover;
-
 }
 
 .slide2 {
@@ -117,8 +124,8 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	width: 1903px;
-	height: 1010px;
+	width: 100%;
+	height: 100%;
 	z-index: 2;
 	background-color: pink;
 }
@@ -130,20 +137,20 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	width: 1903px;
-	height: 1010px;
+	width: 100%;
+	height: 100%;
 	z-index: 1;
 	background-color: aqua;
 }
 
 .footer {
 	background-color: #282a2d;
-	height: 70px;
-	width: 1903px;
+	height:75px;
+	width: 100%;
 	z-index: 5;
 	
 	position: relative;
-	bottom: -900px; 
-	left:0px;
+	bottom: -100%;
+	left:0%;
 	
 }
