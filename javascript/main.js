@@ -6,8 +6,6 @@ $(document).ready(function(){
 	$(".bravery").on('click', function() {
 		//Write code to reset all data
 
-
-
 		if ($about == true) {
 			$(".intro").fadeIn('slow');
 			$(".slide1").animate({height:'toggle'},350);
