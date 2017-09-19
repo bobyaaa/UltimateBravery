@@ -43,15 +43,26 @@ li:hover {
 	top: 0px;
 }
 
-.line {
+.line1 {
 
 	background-color:black;
 	height:3px;
-	width: 36vw ;
+	width: 18vw ;
 	position: relative;
 	top: -35px;
 	left: 56%;
 }
+
+.line2 {
+
+	background-color:black;
+	height:3px;
+	width: 18vw ;
+	position: relative;
+	top: -10%;
+	left: 100%;
+}
+
 .progress1 {
 	background-color: grey;
 	border-radius: 50%;

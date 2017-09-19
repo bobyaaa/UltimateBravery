@@ -81,6 +81,8 @@ $(document).ready(function(){
 	$(".next").on('click',function(){
 		$(".progress2").css("background-color","#2390c6");
 		$(".progress2").css("box-shadow", "0px 0px 15px #2390c6");
+		$(".contain").fadeOut('fast');
+		$(".line1").css("background-color","#2390c6" );
 	});
 
 
