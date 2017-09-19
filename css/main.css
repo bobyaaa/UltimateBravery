@@ -15,10 +15,18 @@ li {
 	display: inline-block;
 	border: 3px solid #003333; 
 	border-radius: 5px;
-	background-color: #00B0B2;
+	background-color: #2390c6;
 	padding: 5px;
-	margin: 0px 3px 0px 3px;
+	margin: 3px 8px 0px 3px;
 	font-family: "Open Sans";
+	cursor: pointer;
+}
+
+img {
+	width: auto;
+	height: auto;
+	max-width: 100px;
+	max-width: 100px;
 	cursor: pointer;
 }
 
@@ -26,9 +34,63 @@ li:hover {
 	background-color: #3582ff;
 }
 
+.wrap {
+	height:100%;
+	width: 100%;
+
+	position:absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.line {
+
+	background-color:black;
+	height:3px;
+	width: 36vw ;
+	position: relative;
+	top: -35px;
+	left: 56%;
+}
+.progress1 {
+	background-color: grey;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	position: relative;
+	top: -50px;
+	left: 55%;
+	font-family: "Open Sans";
+	text-align:center;
+
+}
+
+.progress2 {
+	background-color: grey;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	z-index: 5;
+	position: relative;
+	top: 0px;
+	left: 18vw;  
+}
+
+.progress3 {
+	background-color: grey;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	z-index: 5;
+	position: relative;
+	top: 0px;
+	left: 18vw;  }
+
+
+
 .header {
 	background-color: #282a2d;
-	height: 70px;
+	height: 75px;
 	width: 100%;
 	z-index: 4;
 	position: absolute;
@@ -38,19 +100,19 @@ li:hover {
 }
 
 .intro {
-	background-color: #00B0B2;
+	background-color:#2390c6;
 	color: #003333;
 	font-family: "Open Sans";
-	font-size: 32px;
-	font-weight: 900;
+	font-size: 200%;
+	font-weight: 1000;
 	text-align: center;
 	letter-spacing: 3px;
-	width: 400px;
+	width: 350px;
 	height: 42px;
 
-	position: absolute;
-    top:0;
-    bottom: 0;
+	position: relative;
+    top: -70%;
+    
     left: 0;
     right: 0;
 
@@ -77,20 +139,21 @@ li:hover {
 }
 
 .slide1 {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 
-	margin: auto;
 	width: 100%;
+<<<<<<< HEAD
 	height: 81.7%;
+=======
+	height: 100%;
+>>>>>>> Progress-Bar
 	z-index: 3;
-	background: linear-gradient(transparent,black 90%),url('../images/background.jpg');
-	background-position:center;
+	background: linear-gradient(transparent,black 90%),url('../images/background.jpg')no-repeat center center fixed;
 	background-size: cover;
-
 }
 
 .slide2 {
@@ -100,17 +163,32 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	margin: auto;
 	width: 100%;
+<<<<<<< HEAD
 	height: 81.7%;
+=======
+	height: 100%;
+>>>>>>> Progress-Bar
 	z-index: 2;
-	background-color: pink;
+	background-color: #2390c6;
 }
 
 .contain {
+<<<<<<< HEAD
 	margin: 4px; 
 }
 
+=======
+	padding-top: 79px;
+	padding-left: 5px;
+	text-align: center;
+	overflow-y: scroll;
+
+	position: relative;
+	width: 100%;
+	height: 75%;
+}
+>>>>>>> Progress-Bar
 .slide3 {
 	position: absolute;
 	top: 0;
@@ -118,21 +196,52 @@ li:hover {
 	left: 0;
 	right: 0;
 
-	margin: auto;
 	width: 100%;
+<<<<<<< HEAD
 	height: 81.7%;
+=======
+	height: 100%;
+>>>>>>> Progress-Bar
 	z-index: 1;
-	background-color: aqua;
+	background-color: #7007c6;
 }
 
 .footer {
 	background-color: #282a2d;
-	height: 70px;
+	height:75px;
 	width: 100%;
-	z-index: 4;
-
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	z-index: 5;
+	
+	position: relative;
+	bottom: -100%;
+	left:0%;
+	
 }
+
+.next {
+	background-color:#2390c6;
+	color: #003333;
+	font-family: "Open Sans";
+	font-size: 100%;
+	font-weight: 1000;
+	text-align: center;
+	letter-spacing: 3px;
+	width: 100px;
+	height: 20px;
+	position: relative;
+    top: 90%;
+    left: 80%;
+    padding: 5px;
+    border-radius: 12px; 
+    border: 7px #003333 solid;
+    cursor: pointer;
+    z-index: 4;
+
+}
+.next:hover {
+	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
+	text-shadow: 0 0 0.3px #003333;
+}
+
+
+
