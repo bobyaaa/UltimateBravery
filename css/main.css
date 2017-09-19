@@ -266,5 +266,13 @@ li:hover {
     background: transparent; /* make scrollbar transparent */
 }
 
+.frame{
+	background-color: red;
+	width:75px;
+	height:75px;
+	position:relative;
+	top: 50%;
+	left:50%;
+	z-index:10;
 
-
+}

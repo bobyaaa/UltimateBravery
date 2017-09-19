@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var $bravery = true;
 	var $about = false;
 	var $github = false;
-	var $img = true;
+	var $img =[];
 	$(".next").fadeOut('fast');
 	$(".contain").fadeOut('fast');
 	$(".bravery").on('click', function() {
@@ -103,6 +103,7 @@ $(document).ready(function(){
 		}else if (opacity == 1){
 			$(this).css("opacity", "0.5");
 		}
+		$img.push($(this));
 	});
 
 
