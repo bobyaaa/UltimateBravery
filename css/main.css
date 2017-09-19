@@ -18,6 +18,14 @@ li {
 	cursor: pointer;
 }
 
+img {
+	width: auto;
+	height: auto;
+	max-width: 100px;
+	max-width: 100px;
+	cursor: pointer;
+}
+
 li:hover {
 	background-color: #3582ff;
 }
@@ -145,6 +153,16 @@ li:hover {
 	background-color: #2390c6;
 }
 
+.contain {
+	padding-top: 79px;
+	padding-left: 5px;
+	text-align: center;
+	overflow-y: scroll;
+
+	position: relative;
+	width: 100%;
+	height: 75%;
+}
 .slide3 {
 	position: absolute;
 	top: 0;
