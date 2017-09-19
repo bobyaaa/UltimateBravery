@@ -103,8 +103,10 @@ $(document).ready(function(){
 		var opacity = $(this).css("opacity");
 		if (opacity == 0.5){
 			$(this).css("opacity", "1");
+			$(this).css("transition", "opacity .6s")
 		}else if (opacity == 1){
 			$(this).css("opacity", "0.5");
+			$(this).css("transition", "opacity .6s")
 		}
 		$img = $(this).attr('src');
 	});
