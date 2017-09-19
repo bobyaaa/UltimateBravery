@@ -271,8 +271,8 @@ li:hover {
 	width:75px;
 	height:75px;
 	position:relative;
-	top: 50%;
-	left:50%;
+	top: 30%;
+	left:30%;
 	z-index:10;
 
 }
