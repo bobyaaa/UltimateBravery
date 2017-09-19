@@ -2,6 +2,7 @@ $(document).ready(function(){
 	var $bravery = true;
 	var $about = false;
 	var $github = false;
+	var $img = true;
 	$(".next").fadeOut('fast');
 	$(".contain").fadeOut('fast');
 	$(".bravery").on('click', function() {
@@ -26,6 +27,7 @@ $(document).ready(function(){
 		$bravery = true;
 		$about = false;
 		$github = false;
+		$('.contain img').css("opacity","0.5");
 	});
 
 	$(".intro").on('click', function(){ 
@@ -40,6 +42,7 @@ $(document).ready(function(){
 		$(".progress1").css("box-shadow", "0px 0px 15px #2390c6");
 		$(".next").fadeIn('slow');
 		$(".contain").fadeIn('slow');
+		$('.contain img').css("opacity","0.5");
 	});
 
 	$(".about").on('click', function() {
@@ -57,6 +60,7 @@ $(document).ready(function(){
 		$(".progress2").css("background-color","grey");
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".line1").css("background-color","black" );
+		$('.contain img').css("opacity","0.5");
 		$about = true;
 		$bravery = false;
 		$github = false;
@@ -78,6 +82,7 @@ $(document).ready(function(){
 		$(".progress2").css("background-color","grey");
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".line1").css("background-color","black" );
+		$('.contain img').css("opacity","0.5");
 		$github = true;
 		$bravery = false;
 		$about = false;
@@ -88,6 +93,16 @@ $(document).ready(function(){
 		$(".progress2").css("box-shadow", "0px 0px 15px #2390c6");
 		$(".contain").fadeOut('fast');
 		$(".line1").css("background-color","#2390c6" );
+		$('.contain img').css("opacity","0.5");
+	});
+
+	$('.contain img').on('click',function(){
+		var opacity = $(this).css("opacity");
+		if (opacity == 0.5){
+			$(this).css("opacity", "1");
+		}else if (opacity == 1){
+			$(this).css("opacity", "0.5");
+		}
 	});
 
 
