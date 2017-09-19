@@ -15,11 +15,14 @@ $(document).ready(function(){
 			$(".slide1").animate({height:'toggle'}, 350);
 			$(".slide2").animate({height:'toggle'}, 350);
 		}
-			$(".progress1").css("background-color","grey");
+		$(".progress1").css("background-color","grey");
 		$(".progress1").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".progress2").css("background-color","grey");
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".next").fadeOut('fast');
+		$(".contain").fadeOut('fast');
+		$(".line1").css("background-color","black" );
+
 		$bravery = true;
 		$about = false;
 		$github = false;
@@ -53,6 +56,7 @@ $(document).ready(function(){
 		$(".next").fadeOut('fast');
 		$(".progress2").css("background-color","grey");
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
+		$(".line1").css("background-color","black" );
 		$about = true;
 		$bravery = false;
 		$github = false;
@@ -73,6 +77,7 @@ $(document).ready(function(){
 		$(".next").fadeOut('fast');
 		$(".progress2").css("background-color","grey");
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
+		$(".line1").css("background-color","black" );
 		$github = true;
 		$bravery = false;
 		$about = false;
