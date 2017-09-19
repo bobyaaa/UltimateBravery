@@ -28,6 +28,7 @@ img {
 	max-width: 75px;
 	max-width: 75px;
 	cursor: pointer;
+	opacity: 0.5;
 }
 
 img:hover {
@@ -265,5 +266,13 @@ li:hover {
     background: transparent; /* make scrollbar transparent */
 }
 
+.frame{
+	background-color: red;
+	width:75px;
+	height:75px;
+	position:relative;
+	top: 30%;
+	left:30%;
+	z-index:10;
 
-
+}
