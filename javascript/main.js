@@ -3,6 +3,7 @@ $(document).ready(function(){
 	var $about = false;
 	var $github = false;
 	$(".next").fadeOut('fast');
+	$(".contain").fadeOut('fast');
 	$(".bravery").on('click', function() {
 		//Write code to reset all data
 
@@ -35,10 +36,11 @@ $(document).ready(function(){
 		$(".progress1").css("background-color","#2390c6");
 		$(".progress1").css("box-shadow", "0px 0px 15px #2390c6");
 		$(".next").fadeIn('slow');
+		$(".contain").fadeIn('slow');
 	});
 
 	$(".about").on('click', function() {
-
+		$(".contain").fadeOut('fast');
 		if ($bravery == true) {
 			$(".intro").fadeOut('slow');
 			$(".slide1").animate({height:'toggle'}, 350);
