@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var $bravery = true;
 	var $about = false;
 	var $github = false;
-	var $img =[];
+	var $img = new Array();
 	$(".next").fadeOut('fast');
 	$(".contain").fadeOut('fast');
 	$(".bravery").on('click', function() {
@@ -95,6 +95,7 @@ $(document).ready(function(){
 		$(".line1").css("background-color","#2390c6" );
 		$('.contain img').css("opacity","0.5");
 		
+
 	});
 
 	$('.contain img').on('click',function(){
@@ -104,7 +105,7 @@ $(document).ready(function(){
 		}else if (opacity == 1){
 			$(this).css("opacity", "0.5");
 		}
-		$img.push($(this));
+		
 	});
 
 
