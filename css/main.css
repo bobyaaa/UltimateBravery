@@ -25,8 +25,8 @@ li {
 img {
 	width: auto;
 	height: auto;
-	max-width: 100px;
-	max-width: 100px;
+	max-width: 75px;
+	max-width: 75px;
 	cursor: pointer;
 }
 
@@ -165,6 +165,7 @@ li:hover {
 	height: 100%;
 	z-index: 2;
 	background-color: #2390c6;
+	overflow:hidden;
 }
 
 .contain {
@@ -227,6 +228,11 @@ li:hover {
 .next:hover {
 	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
 	text-shadow: 0 0 0.3px #003333;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 
 
