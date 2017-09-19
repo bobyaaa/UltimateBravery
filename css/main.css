@@ -30,6 +30,10 @@ img {
 	cursor: pointer;
 }
 
+img:hover {
+	box-shadow: 0px 0px 0.2pt 0.8pt #003333;
+}
+
 li:hover {
 	background-color: #3582ff;
 }
@@ -237,6 +241,21 @@ li:hover {
 
 }
 .next:hover {
+	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
+	text-shadow: 0 0 0.3px #003333;
+}
+
+.bravery:hover {
+	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
+	text-shadow: 0 0 0.3px #003333;
+}
+
+.about:hover {
+	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
+	text-shadow: 0 0 0.3px #003333;
+}
+
+.github:hover {
 	box-shadow: 0px 0px 0.2pt 0.4pt #003333;
 	text-shadow: 0 0 0.3px #003333;
 }
