@@ -94,6 +94,7 @@ $(document).ready(function(){
 		$(".contain").fadeOut('fast');
 		$(".line1").css("background-color","#2390c6" );
 		$('.contain img').css("opacity","0.5");
+		
 	});
 
 	$('.contain img').on('click',function(){
