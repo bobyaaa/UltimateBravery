@@ -2,10 +2,14 @@ $(document).ready(function() {
 
 	var champion_pool = [];
 
-	alert("eeepepe");
-
 	$('img').on('click', function() {
 		
+		if (champion_pool.length == 0) {
+			champion_pool.push($(this).attr('id'));
+			alert(champion_pool[0]);
+		}
+
+		/*
 		for (int i = 0; i < champion_pool.length(); i++) {
 			if ($(this).getId() ==  champion_pool[i]) {
 				champion_pool.splice(champion_pool.indexOf($(this).getId()), 1);
@@ -17,6 +21,6 @@ $(document).ready(function() {
 
 		for (int i = 0; i < champion_pool.length(); i++) {
 			alert(champion_pool[i]);
-		}
+		}*/
 	});
 });
