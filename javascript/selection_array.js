@@ -1,26 +1,27 @@
 $(document).ready(function() {
 
 	var champion_pool = [];
+	var found = false;
 
 	$('img').on('click', function() {
-		
-		if (champion_pool.length == 0) {
-			champion_pool.push($(this).attr('id'));
-			alert(champion_pool[0]);
-		}
 
-		/*
-		for (int i = 0; i < champion_pool.length(); i++) {
-			if ($(this).getId() ==  champion_pool[i]) {
-				champion_pool.splice(champion_pool.indexOf($(this).getId()), 1);
+		for (i = 0; i < champion_pool.length; i++) {
+			if ($(this).attr('id') == champion_pool[i]) {
+				found = true; 
 				break;
-			}
-		} else {
-			champion_pool.push($(this).getId());
-		}
+			} 
+		} 
 
-		for (int i = 0; i < champion_pool.length(); i++) {
+		if (found == true) {
+			champion_pool.splice(champion_pool.indexOf($(this).attr('id')), 1);
+		} else {
+			champion_pool.push($(this).attr('id'));
+		}
+		
+		/* for (i = 0; i < champion_pool.length; i++) { //Code Testing checking for the correct adding into the list
 			alert(champion_pool[i]);
-		}*/
+		} */           
+
+		found = false;
 	});
 });
