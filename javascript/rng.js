@@ -4,4 +4,7 @@ $(document).ready(function() {
 	Generate a number between 0 and champions_list.length()
 	Generate numbers for summoner spells (with no duplicate selection)
 	*/
+
+	var selected_champions = 0;
+
 });
