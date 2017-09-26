@@ -5,6 +5,4 @@ $(document).ready(function() {
 	Generate numbers for summoner spells (with no duplicate selection)
 	*/
 
-	var selected_champions = 0;
-
 });
