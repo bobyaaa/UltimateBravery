@@ -275,4 +275,5 @@ li:hover {
 	display: block;
 	width: 500px; height: 500px;
 	margin: auto;
+	background-size: cover;
 }
