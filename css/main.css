@@ -269,6 +269,14 @@ li:hover {
     background: transparent; /* make scrollbar transparent */
 }
 
+.idiotic {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+}
+
 .stupidity {
 	/*we really need to clean this up */
 	border: 1px black solid;
