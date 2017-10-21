@@ -88,18 +88,7 @@ $(document).ready(function(){
 		$about = false;
 	}); 
 
-	$(".next").on('click',function(){
-		$(".progress2").css("background-color","#2390c6");
-		$(".progress2").css("box-shadow", "0px 0px 15px #2390c6");
-		$(".contain").fadeOut('fast');
-		$(".line1").css("background-color","#2390c6" );
-		$('.contain img').css("opacity","0.5");
-		$(".frame").css("background", "url("+$img+")");
-		$(".frame").css("background-size", "cover");
-
-	});
-
-	$('.contain img').on('click',function(){
+	$('.contain img').on('click',function(){ //What the heck is this??????????????????????
 		var opacity = $(this).css("opacity");
 		if (opacity == 0.5){
 			$(this).css("opacity", "1");
@@ -109,6 +98,13 @@ $(document).ready(function(){
 			$(this).css("transition", "opacity .6s")
 		}
 		$img = $(this).attr('src');
+	});
+
+	$(".next").on('click',function(){
+		$(".progress2").css("background-color","#2390c6");
+		$(".progress2").css("box-shadow", "0px 0px 15px #2390c6");
+		$(".contain").fadeOut('fast');
+		$(".line1").css("background-color","#2390c6");
 	});
 
 
