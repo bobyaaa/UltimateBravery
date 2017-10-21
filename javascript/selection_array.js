@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
 	var champion_pool = [];
-<<<<<<< HEAD
 
 	$('img').on('click', function() {
 		/*Shell
@@ -16,7 +15,7 @@ $(document).ready(function() {
 
 		*/
 	});
-=======
+
 	var found = false;
 
 	//Errors occur if you click too fast!!!
@@ -48,7 +47,7 @@ $(document).ready(function() {
 		var random_champion = Math.floor(Math.random() * champion_pool.length); //This will give out the index of the random champion..
 		alert(champion_pool[random_champion]);
 		$champion_picture = champion_pool[random_champion]
-		//$(".slide2").append('<img class="randomImg" src="images/' + $champion_picture + '.png">');
+		$(".slide2").append('<img class="randomImg" src="images/' + $champion_picture + '.png">');
 
 	});
 
@@ -58,6 +57,4 @@ $(document).ready(function() {
 		}
 	}); 
 
-
->>>>>>> GreyOutTest
 });
