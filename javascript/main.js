@@ -6,7 +6,8 @@ $(document).ready(function(){
 	$(".idiotic").hide();
 	$(".next").fadeOut('fast');
 	$(".contain").fadeOut('fast');
-	$(".bravery").on('click', function() {
+	
+	$(".bravery").on('click', function() { ///////////////////////////////////////////////////////
 		//Write code to reset all data
 
 		if ($about == true) {
@@ -24,6 +25,7 @@ $(document).ready(function(){
 		$(".next").fadeOut('fast');
 		$(".contain").fadeOut('fast');
 		$(".line1").css("background-color","black" );
+		$(".idiotic").fadeOut("slow");
 
 		$bravery = true;
 		$about = false;
@@ -44,6 +46,7 @@ $(document).ready(function(){
 		$(".next").fadeIn('slow');
 		$(".contain").fadeIn('slow');
 		$('.contain img').css("opacity","0.5");
+		$(".idiotic").fadeOut('slow');
 	});
 
 	$(".about").on('click', function() {
@@ -62,6 +65,8 @@ $(document).ready(function(){
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".line1").css("background-color","black" );
 		$('.contain img').css("opacity","0.5");
+		$('.idiotic').fadeOut('slow');
+
 		$about = true;
 		$bravery = false;
 		$github = false;
@@ -84,6 +89,8 @@ $(document).ready(function(){
 		$(".progress2").css("box-shadow", "0px 0px 0px #2390c6");
 		$(".line1").css("background-color","black" );
 		$('.contain img').css("opacity","0.5");
+		$('.idiotic').fadeOut('slow');
+		
 		$github = true;
 		$bravery = false;
 		$about = false;
