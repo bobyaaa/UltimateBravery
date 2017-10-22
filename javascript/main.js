@@ -3,6 +3,7 @@ $(document).ready(function(){
 	var $about = false;
 	var $github = false;
 	var $img;
+	$(".idiotic").hide();
 	$(".next").fadeOut('fast');
 	$(".contain").fadeOut('fast');
 	$(".bravery").on('click', function() {
@@ -105,6 +106,7 @@ $(document).ready(function(){
 		$(".progress2").css("box-shadow", "0px 0px 15px #2390c6");
 		$(".contain").fadeOut('fast');
 		$(".line1").css("background-color","#2390c6");
+		$(".idiotic").show();
 	});
 
 

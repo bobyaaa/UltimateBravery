@@ -281,11 +281,16 @@ li:hover {
 
 .stupidity {
 	/*we really need to clean this up */
+	width: 100px; height: 100px; 
 	border: 1px black solid;
 	display: inline-block;
-	width: 50%; height: 100%;
 	background-size: cover;
+	background-color: pink;
+}
 
+.characterShow { /*Section to the left*/
+	display: inline-block;
+	width: 30%; height: 100%;
 	position: absolute;
 	top: 0;
 	bottom: 0; 
@@ -293,14 +298,82 @@ li:hover {
 	right: 0;
 }
 
-.moronic {
+.moronic { /*Section to the right */
 	border: 1px green solid;
 	display: inline-block;
-	width: 50%; height: 100%;
+	width: 70%; height: 100%;
 
 	position: absolute;
 	top: 0;
 	bottom: 0; 
-	left: 50%;
+	left: 30%;
 	right: 0;
 }
+
+.uno {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+
+.dos {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+
+
+.tres {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+
+.cuatro {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+
+.cinco {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+
+.seis {
+	display: inline-block;
+	height: 85px; width: 85px;
+	border: 3px solid #003333; 
+	border-radius: 5px;
+	background-color: #2390c6;
+	padding: 5px;
+	margin: 3px 8px 0px 3px;
+	background-size: cover;
+}
+

@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	var champion_pool = [];
 
 	$('img').on('click', function() {
