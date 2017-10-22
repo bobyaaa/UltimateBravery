@@ -299,7 +299,6 @@ li:hover {
 }
 
 .moronic { /*Section to the right */
-	border: 1px green solid;
 	display: inline-block;
 	width: 70%; height: 100%;
 

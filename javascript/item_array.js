@@ -34,5 +34,8 @@ $(document).ready(function() {
 					break;
 			}
 		}	
+
 	});
+
+
 });

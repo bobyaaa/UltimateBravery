@@ -38,16 +38,14 @@ $(document).ready(function() {
 	});
 
 	$(".next").on('click', function() {
-		alert(champion_pool.length);
-		for (i = 0; i < champion_pool.length; i++) { //Code Testing checking for the correct adding into the list
+		/*for (i = 0; i < champion_pool.length; i++) { //Code Testing checking for the correct adding into the list
 			alert(champion_pool[i]);
-		}           
+		}  */         
 
 		var random_champion = Math.floor(Math.random() * champion_pool.length); //This will give out the index of the random champion..
-		alert(champion_pool[random_champion]);
 		$champion_picture = champion_pool[random_champion]
 		$(".stupidity").css('background-image', 'url(images/' + $champion_picture + '.png)');
-
+		$('.championName').text($champion_picture);
 	});
 
 	$(".bravery, .about, .github").on('click', function() {
