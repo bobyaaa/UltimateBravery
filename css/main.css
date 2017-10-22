@@ -271,18 +271,20 @@ li:hover {
 
 .idiotic {
 	position: absolute;
-	top: 15%;
+	top: 20%;
 	bottom: 15%;
 	left: 0;
 	right: 0; 
+	background-color: #48628c;
 
-	border: 2px black solid;
+	
 }
 
 .stupidity {
 	/*we really need to clean this up */
-	width: 100px; height: 100px; 
-	border: 1px black solid;
+	width: 150px; height: 150px; 
+	border: 3px solid #003333; 
+	border-radius: 5px;
 	display: inline-block;
 	background-size: cover;
 	background-color: pink;
@@ -294,24 +296,23 @@ li:hover {
 	position: absolute;
 	top: 0;
 	bottom: 0; 
-	left: 0;
+	left: 5%;
 	right: 0;
 }
 
 .moronic { /*Section to the right */
 	display: inline-block;
 	width: 70%; height: 100%;
-
 	position: absolute;
-	top: 0;
+	top: 25%;
 	bottom: 0; 
-	left: 30%;
+	left: 25%;
 	right: 0;
 }
 
 .uno {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -322,7 +323,7 @@ li:hover {
 
 .dos {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -334,7 +335,7 @@ li:hover {
 
 .tres {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -345,7 +346,7 @@ li:hover {
 
 .cuatro {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -356,7 +357,7 @@ li:hover {
 
 .cinco {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -367,7 +368,7 @@ li:hover {
 
 .seis {
 	display: inline-block;
-	height: 85px; width: 85px;
+	height: 70px; width: 70px;
 	border: 3px solid #003333; 
 	border-radius: 5px;
 	background-color: #2390c6;
@@ -376,3 +377,26 @@ li:hover {
 	background-size: cover;
 }
 
+.championName {
+	margin-top: 130px;
+	color: #003333;
+	font-family: "Open Sans";
+	font-size: 200%;
+	font-weight: 1000;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.storage {
+	margin-top: 25px;
+}
+
+#itemNames {
+	color: #003333;
+	font-family: "Open Sans";
+	font-size: 200%;
+	font-weight: 1000;
+	text-align: center;
+	letter-spacing: 3px;
+}
